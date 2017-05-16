@@ -1,0 +1,30 @@
+{
+  "name": "theme-based-sass",
+  "version": "1.0",
+  "description": "Create css files based on themes (configuration files with variable values).",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adhodi/sassForThemes"
+  },
+  "keywords": [
+    "sass",
+    "Themes",
+    "css"
+  ],
+  "author": {
+    "email": "abhinandan.dhodi@gmail.com",
+    "name": "Abhinandan Dhodi"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "gulp-file": "0.3.0",
+    "gulp-sass": "3.1.0"
+  },
+  "peerDependencies": {
+    "gulp": "3.9.1"
+  },
+  "bin": {
+    "theme=based-sass": "./theme=based-sass.js"
+  }
+}
